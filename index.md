@@ -13,3 +13,10 @@ The Collective primarily interacts on the RPG Kitchen Discord server. Join [here
 ## Regular Meetings
 
 Meetings run on a regular basis, on the Second Wednesday of each month, at noon EDT/5pm BST. Occasionally extra meetings will be coordinated on an ad-hoc basis. Join the discord above to find out more.
+
+### Next meeting (in your local time):
+
+<script>
+var d = new Date(Date.UTC(2021,8,11,16,0,0));
+document.getElementById("next-meeting-in-your-local-time").appendChild(document.createTextNode(" " + d.toLocaleString()));
+</script>
