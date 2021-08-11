@@ -17,6 +17,6 @@ Meetings run on a regular basis, on the Second Wednesday of each month, at noon 
 ### Next meeting (in your local time):
 
 <script>
-var d = new Date(Date.UTC(2021,7,11,16,0,0)); // don't forget, month is 0-based, day is not (yay javascript)
+var d = new Date(Date.UTC(2021,7,18,16,0,0)); // don't forget, month is 0-based, day is not (yay javascript)
 document.getElementById("next-meeting-in-your-local-time").appendChild(document.createTextNode(" " + d.toLocaleString()));
 </script>
