@@ -1,5 +1,7 @@
 # The RPG Kitchen Collective
 
+(working title)
+
 ## Mission Statement
 
 The Collective's mission is to help members of all levels of experience contribute to and improve the table-top industry, to empower members to pursue their specialties on equal footing, and to provide a platform for collective creation.
