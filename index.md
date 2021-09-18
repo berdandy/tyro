@@ -13,7 +13,19 @@ Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10
 ### Next meeting (in your local time):
 
 <script>
-var d = new Date(Date.UTC(2021,8,27,21,0,0)); // don't forget, month is 0-based, day is not (yay javascript)
+
+function lastMondayOfMonth() {
+  var d = new Date();
+  d.setMonth(d.getMonth()+1);
+  d.setDate(0); // last day of *PREVIOUS* month, hence the +1 above. Stupid API
+  d.setUTCHours(21);
+  d.setUTCMinutes(0);
+  d.setUTCSeconds(0);
+  d.setUTCDate(d.getUTCDate() - (d.getUTCDay() - 1)); // 1 == Monday;
+  return d;
+}
+
+var d = lastMondayOfMonth();
 document.getElementById("next-meeting-in-your-local-time").appendChild(document.createTextNode(" " + d.toLocaleString()));
 </script>
 
