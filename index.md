@@ -8,7 +8,7 @@ The Collective's mission is to help members of all levels of experience contribu
 
 ## Regular Meetings
 
-Meetings run on a regular basis, on the Last Monday of each month, at 5pm EDT/10pm BST. Occasionally extra meetings will be coordinated on an ad-hoc basis. Join the discord above to find out more.
+Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10pm BST. Occasionally extra meetings will be coordinated on an ad-hoc basis. Join the discord above to find out more.
 
 ### Next meeting (in your local time):
 
