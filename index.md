@@ -13,18 +13,26 @@ Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10
 <script>
 
 function lastMondayOfMonth() {
-  var d = new Date();
-  d.setMonth(d.getMonth()+1);
-  d.setDate(0); // last day of *PREVIOUS* month, hence the +1 above. Stupid API
-  d.setUTCHours(21);
-  d.setUTCMinutes(0);
-  d.setUTCSeconds(0);
-  d.setUTCDate(d.getUTCDate() - (d.getUTCDay() - 1)); // 1 == Monday;
+  let d = new Date();
+  d.setDate(d.getDate() - (d.getDay() + 6) % 7);
+  d.setHours(17);
+  d.setMinutes(0);
+  d.setSeconds(0);
+
+  // might be past it already
+  var now = new Date();
+  if(d < now) 
+  {
+    d.setMonth(d.getMonth()+1);
+    d.setDate(d.getDate() - (d.getDay() + 6) % 7);
+  }
+
   return d;
 }
 
 var d = lastMondayOfMonth();
-document.getElementById("next-meeting-in-your-local-time").appendChild(document.createTextNode(" " + d.toLocaleString()));
+var options = { dateStyle: "long", timeStyle: "long" };
+document.getElementById("next-meeting-in-your-local-time").appendChild(document.createTextNode(" " + d.toLocaleString([], options)));
 </script>
 
 ---
