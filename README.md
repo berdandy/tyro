@@ -1,2 +1,2 @@
-# rpgkc
-RPG Kitchen Collective
+# tyro
+The Tyro Collective
