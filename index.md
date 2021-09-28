@@ -1,6 +1,4 @@
-# The RPG Kitchen Collective
-
-(working title)
+# The Tyro Collective
 
 ## Mission Statement
 
@@ -8,7 +6,7 @@ The Collective's mission is to help members of all levels of experience contribu
 
 ## Regular Meetings
 
-Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10pm BST. Occasionally extra meetings will be coordinated on an ad-hoc basis. Join the discord above to find out more.
+Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10pm BST. Occasionally extra meetings will be coordinated on an ad-hoc basis. Join the discord (linked below) to find out more.
 
 ### Next meeting (in your local time):
 
@@ -33,7 +31,7 @@ document.getElementById("next-meeting-in-your-local-time").appendChild(document.
 
 ## Contact
 
-The Collective primarily interacts on the RPG Kitchen Discord server. Join [here](https://discord.gg/sStDEP62h4):
+The Tyro Collective primarily interacts on the RPG Kitchen Discord server. Join [here](https://discord.gg/sStDEP62h4):
 
 [![Discord Invite Link](./discord-icon.png)](https://discord.gg/sStDEP62h4)
 
