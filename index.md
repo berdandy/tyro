@@ -8,6 +8,8 @@ The Collective's mission is to help members of all levels of experience contribu
 
 The collective runs [The Tyro](http://newsletter.tyro.group) newsletter, focusing on tabletop self-help resources. Check it out [here](http://newsletter.tyro.group).
 
+Submission of content to The Tyro may be done by filling out [this form](https://forms.gle/PZTjnyLAnymbJr9c7).
+
 ## Regular Meetings
 
 Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10pm BST. Occasionally extra meetings will be coordinated on an ad-hoc basis. Join the discord (linked below) to find out more.
