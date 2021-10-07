@@ -8,7 +8,7 @@ The Collective's mission is to help members of all levels of experience contribu
 
 The collective runs [The Tyro](http://newsletter.tyro.group) newsletter, focusing on tabletop self-help resources. Check it out [here](http://newsletter.tyro.group).
 
-Submission of content to The Tyro may be done by filling out [this form](https://forms.gle/PZTjnyLAnymbJr9c7).
+- Submission of content or ideas for The Tyro may be done by filling out [this form](https://forms.gle/PZTjnyLAnymbJr9c7).
 
 ## Regular Meetings
 
