@@ -23,21 +23,24 @@ Meetings run on a regular basis, on the last monday of each month, at 5pm EDT/10
 <script>
 
 function lastMondayOfMonth() {
-  let d = new Date();
-  d.setDate(d.getDate() - (d.getDay() + 6) % 7);
-  d.setHours(17);
-  d.setMinutes(0);
-  d.setSeconds(0);
+    let d = new Date();
+    d.setMonth(d.getMonth() + 1);
+    d.setDate(0);
+    d.setDate(d.getDate() - (d.getDay() - 1));
+    d.setHours(17);
+    d.setMinutes(0);
+    d.setSeconds(0);
 
-  // might be past it already
-  var now = new Date();
-  if(d < now) 
-  {
-    d.setMonth(d.getMonth()+1);
-    d.setDate(d.getDate() - (d.getDay() + 6) % 7);
-  }
+    // might be past it already
+    var now = new Date();
+    if(d < now) 
+    {
+        d.setMonth(d.getMonth()+1);
+        d.setDate(0);
+        d.setDate(d.getDate() - (d.getDay() - 1));
+    }
 
-  return d;
+    return d;
 }
 
 var d = lastMondayOfMonth();
