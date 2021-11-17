@@ -27,7 +27,7 @@ function lastMondayOfMonth() {
     d.setMonth(d.getMonth() + 1);
     d.setDate(0);
     d.setDate(d.getDate() - (d.getDay() - 1));
-    d.setHours(17);
+    d.setHours(18);
     d.setMinutes(0);
     d.setSeconds(0);
 
