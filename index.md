@@ -52,7 +52,10 @@ document.getElementById("next-meeting-in-your-local-time").appendChild(document.
 
 ## Contact
 
-The Tyro Collective currently interacts on the RPG Kitchen Discord server. Join [here](https://discord.gg/sStDEP62h4):
+We are in the process of moving to our own Discord server, which is available [here](https://discord.gg/VU5pDhqUEV):
 
-[![Discord Invite Link](./discord-icon.png)](https://discord.gg/sStDEP62h4)
+{:refdef: style="text-align: center;"}
+[![Discord Invite Link](./discord-icon.png)](https://discord.gg/VU5pDhqUEV)
+{: refdef}
 
+The Tyro Collective previously interacted on the RPG Kitchen Discord server, which may be found [here](https://discord.gg/sStDEP62h4) for historical purposes.
